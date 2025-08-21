@@ -13,7 +13,10 @@ const port=process.env.PORT|| 4000
 
 connectDB();
 
-const allowedOrigins = ['http://localhost:5173']
+const allowedOrigins = ['http://localhost:5173',
+  'https://mernauthentication-sandy.vercel.app',
+  'https://mernauthentication-git-main-pratikpankaj04-6355s-projects.vercel.app',
+  'https://mernauthentication-fq3ey7qdz-pratikpankaj04-6355s-projects.vercel.app']
 
 app.use(express.json());
 app.use(cookieParser());
